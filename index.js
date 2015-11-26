@@ -1,6 +1,5 @@
 module.exports = function ObjectPropsEqual(objA, objB) {
     if (objA === objB) return true;
-    if (!objA && !objB) return true;
     if (!objA || !objB) return false;
 
     const objAKeys = Object.keys(objA);
