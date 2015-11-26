@@ -1,4 +1,4 @@
-module.exports = function ObjectPropsEqual(objA, objB) {
+module.exports = function ShallowEquals(objA, objB) {
     if (objA === objB) return true;
     if (!objA || !objB) return false;
 
